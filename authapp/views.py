@@ -1,3 +1,7 @@
 from django.shortcuts import render
+import hashlib
 
-# Create your views here.
+def Authentication(request):
+    password=get.Password()
+
+    result=hashlib.md5(password.encode())
