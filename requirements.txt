@@ -1,6 +1,6 @@
 asgiref==3.2.7
-Django==3.0.5
-djangorestframework==3.11.0
+django==2.2
+djangorestframework==3.9.2
 md5hash==0.0.1
 pytz==2019.3
 sqlparse==0.3.1
